@@ -1,0 +1,205 @@
+/* This file is created by Yu Li */
+#menu
+{
+	display: block;
+	margin: 0 auto;
+	margin-top: 200px;
+	height: 260px;
+	width: 400px;
+	background-color: azure;
+	border: 
+}
+#container
+{
+	display: none;
+	vertical-align: top;
+    height : 830px;
+    width : 600px;
+    margin : 0 auto;
+    margin-bottom: 3px;
+    border : 1px solid blue;
+    background-color: antiquewhite;
+
+}
+#gomoku
+{
+    text-align: center;
+    font-size: 40px;
+    font-family: courier new;
+	color: black;
+}
+.row
+{
+	display: inline-block;
+    width: 600px;
+    height: 100px;
+}
+#scoreBoard
+{
+	display: inline-block;
+	width: 160px;
+	height: 100px;
+	margin-left: 15px;
+	margin-bottom: 5px;
+}
+#BTC 
+{
+	display: block;
+	width: 155px;
+	height: 33px;
+}
+#sctxt
+{
+	display: inline-block;
+	height: 33px;
+	width: 100px;
+	vertical-align: middle;
+}
+#clearButton
+{
+	width: 50px;
+	height: 30px;
+	margin-left: 0px;
+	margin-top: 10px;
+	vertical-align: top;
+}
+#clear
+{	
+	display: inline-block;
+	margin-left: 130px;
+	height: 33px;
+}
+
+#score1
+{
+    display: block;
+    height : 30px;
+    width: 120px;
+}
+#score2
+{	
+	margin-top: 4px;
+	display: block;
+	height : 30px;
+	width : 120px;
+}
+#player1
+{
+	display: inline-block;
+	height: 28px;
+	width: 28px;
+	background-color: #383a3d;
+}
+#player2
+{
+	display: inline-block;
+	height: 28px;
+	width: 28px;
+	background-color: white;
+}
+#p1Score
+{
+	vertical-align: top;
+	margin-left: 35px;
+	display: inline-block;
+	height: 30px;
+	width: 50px;
+}
+#p2Score
+{
+	vertical-align: top;
+	margin-left: 35px;
+	display: inline-block;
+	height: 30px;
+	width: 50px;
+}
+
+
+#operation
+{
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 15px;
+}
+#retract
+{
+	margin-left: 165px;
+    width: 100px;
+}
+#restart
+{
+    width: 100px;
+}
+#chessboard
+{
+    width: 100%;
+    margin: 0px auto;
+}
+canvas{
+    display: block;
+    background-color: #5d6577;
+    margin: 0px auto;
+    box-shadow: -2px -2px 2px #EFEFEF, 5px 5px 5px #B9B9B9;
+    position: relative;
+}
+#nameBoard
+{
+	display: block;
+	text-align: right;
+	width: 295px;
+	height: 30px;
+	margin-bottom: 25px;
+	margin-left: 0px;
+	font-size: 18px;
+}
+#sizeSelect
+{
+	display: inline-block;
+	width: 310px;
+	height: 100px;
+	vertical-align: top;
+	margin-left: 110px;
+	margin-top: 0px;
+}
+#regular
+{
+	display: inline-block;
+	margin-left: 20px;
+	width: 135px;
+	height: 35px;
+}
+#small
+{
+	display: inline-block;
+	width: 135px;
+	height: 35px;
+}
+
+#player1Input
+{
+	margin-top: 40px;
+}
+#player2Input
+{
+	margin-top: 5px;
+	margin-bottom: 40px
+}
+.name
+{
+	margin-left: 55px;
+}
+.boardSize
+{
+	margin-left: 70px;
+}
+#boardSelect
+{
+	margin-bottom: 35px;
+}
+#startGame
+{
+	
+	margin-top: 25px;
+	margin-left: 155px;
+}
+
