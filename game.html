@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+    <meta charset = 'utf-8'>
+    <title>Gomoku</title>
+    <link rel='stylesheet' type="text/css" href="css/style.css"> 
+    <link rel='stylesheet' type="text/css" href="css/button.css">
+	
+</head>
+<body style="background-color: gainsboro">
+	<!--div id="menu">
+		<label class="name">Player1 name: </label><input type="text" id="player1Input" value="player1" /><br>
+		<label class="name">Player2 name: </label><input type="text" id="player2Input" value="player2" />
+	
+		<label class="boardSize">Select board: </label>
+		<input type="radio" name="board" value="19" checked/>Regular
+		<input type="radio" name="board" value="15" id="boardSelect"/>small
+		<br>
+		<label class="boardSize">First start: </label>
+		<input type="radio" name="startFirst" value="player1" checked/>Player1
+		<input type="radio" name="startFirst" value="player2" />Player2
+		<br>
+		<button onclick="startGame()" class="green button" id="startGame">Start</button>
+		
+	</div-->
+    <div id="container">
+        <h1 id="gomoku">Gomoku</h1>
+        <div class="row">
+			<div id = "scoreBoard">
+				<!--div id= "sc">
+					
+				</div-->
+				<div id="BTC">
+					<div id= "sctxt"></div>
+					<div id="clear">
+						<button onclick="clearScore()" class="orange" id="clearButton">Clear</button>
+						
+					</div>
+				</div>
+					
+				<div id= "score1">
+					<div id= "player1"></div>
+					<div id= "p1Score"></div>
+				</div>
+				<div id= "score2">
+					<div id= "player2"></div>
+					<div id= "p2Score"></div>
+				</div>
+				
+			</div>
+		<div id="sizeSelect">
+			<div id="nameBoard"></div>
+			<button class="button" id="regular" onclick="switchBoard()" disabled>Regular Board</button>
+			<button class="button" id="small" onclick="switchBoard()">Small Board</button>
+		</div>
+			
+        </div>
+		
+        <div id="chessboard">
+            <canvas id = 'boardNormal' width = '570px' height= "570px"></canvas>
+            <div id = 'operation'>
+				<button class="green" onclick="replay()" id="replay" disabled>Replay</button>
+				<button class="blue" onclick="previousStep()" id="previous" disabled>Previous</button>
+				<button class="blue" onclick="nextStep()" id="next" disabled>Next</button>
+				
+                <button onclick="retract()" class="blue button" id="retract" disabled>Retract</button>
+                <button onclick="restart()" class="green button" id="restart">Restart </button>
+				<!--button onclick="enable()" class="blue button"></button-->
+            </div>
+        </div>
+    </div>
+	<div id="menu">
+		<label class="name">Player1 name: </label><input type="text" maxlength = "8" id="player1Input" value="player1" /><br>
+		<label class="name">Player2 name: </label><input type="text" maxlength = "8" id="player2Input" value="player2" />
+	
+		<label class="boardSize">Select board: </label>
+		<input type="radio" name="board" value="19" checked/>Regular
+		<input type="radio" name="board" value="15" id="boardSelect"/>small
+		<br>
+		<label class="boardSize">First start: </label>
+		<input type="radio" name="startFirst" value="player1" checked/>Player1
+		<input type="radio" name="startFirst" value="player2" />Player2
+		<br>
+		<button onclick="startGame()" class="green button" id="startGame">Start</button>
+		
+	</div>
+	<script type="text/javascript" src="Javascript/gomoku.js"></script>
+</body>
+</html>
+
